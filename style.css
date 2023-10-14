@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: black;
+   display: flex;
+   align-items: center;
+
+   justify-content: center;
+   color: white;
+}
+.text{
+    margin-top: 50px;
+}
+#ball{
+    
+    background-color: red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+     padding-top: 60px;
+    padding-left: 53px;
+    display: inline;
+    align-items: center; 
+    box-sizing: border-box;
+    
+}
